@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.Navbar{
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.nav-icons ul{
+  display: flex;
+  text-decoration: none;
+}
+
+.nav-icons ul li{
+  margin-top: 30px;
+  list-style-type: none;
+  margin-left: 40px;
+
+}
+
+.Photocard{
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.photo{
+  height: 300px;
+  width: 290px;
+  border-radius: 200px;
+  align-items: center;
+  border-style: groove;
+  border-color: #61dafb;
+}
