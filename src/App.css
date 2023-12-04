@@ -71,3 +71,31 @@
   border-style: groove;
   border-color: #61dafb;
 }
+
+.intro{
+  position: relative;
+  display: grid;
+  text-align: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.cvButton{
+  position: relative;
+  margin-right: 20px;
+  background-color: rgb(7, 166, 240);
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.hireButton {
+  background-color: rgb(7, 166, 240);
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
