@@ -40,7 +40,19 @@
 .Navbar{
   justify-content: space-evenly;
   display: flex;
+  color: white;
+  position: fixed;
+  width: 100%;
+  transition: background 0.3s;
+  z-index: 1000;
+  padding-top: 20px;
 }
+
+.Navbar.scrolled {
+  background: #333;
+  padding-top: 0px;
+}
+
 
 .nav-icons ul{
   display: flex;
@@ -48,10 +60,13 @@
 }
 
 .nav-icons ul li{
-  margin-top: 30px;
   list-style-type: none;
   margin-left: 40px;
 
+}
+
+.cv{
+  margin-top: 0px;
 }
 
 .Photocard{
@@ -60,16 +75,16 @@
   left: 50%;
   transform: translate(-50%);
   text-align: center;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
 .photo{
-  height: 300px;
-  width: 290px;
+  height: 250px;
+  width: 250px;
   border-radius: 200px;
   align-items: center;
   border-style: groove;
-  border-color: #61dafb;
+  border-color: white;
 }
 
 .intro{
@@ -124,4 +139,42 @@
 
 .sentence-space {
   margin-top: 18px; 
+}
+
+.NavbarContainer {
+  background-image: url('/home/kiarie/Development/Code/portfolio/src/Images/background.jpg');
+  background-size: 100%; 
+  background-position: center; 
+  height: 60vh; 
+}
+
+
+.share{
+  margin-top: 35px;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.icons li {
+  margin: 0 10px; 
+}
+
+.icons a {
+  color: rgb(143, 145, 146);;
+}
+
+.name{
+  color: white;
+  margin-bottom: 0px;
+}
+.info{
+  margin-top: 0px;
+  color: white;
 }
