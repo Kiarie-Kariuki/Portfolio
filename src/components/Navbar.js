@@ -1,13 +1,36 @@
 import collins from '../Images/collins.JPG'
+import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 
 console.log (collins)
 
 function Navbar(){
+
+    const [prevScrollPos, setPrevScrollPos] = useState(0);
+    const [visible, setVisible] = useState(true);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollPos = window.scrollY;
+
+            setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 30); 
+
+            setPrevScrollPos(currentScrollPos);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [prevScrollPos]);
+
     return(
-        <div>
-            <div className="Navbar" id="navbar">
-                <div>
+        <div className='NavbarContainer'>
+            <div className={`Navbar ${visible ? '' : 'scrolled'}`} id="navbar">
+                <div className='cv'>
                     <h2>ONLINE CV</h2>
                 </div>
                 <div className="nav-icons">
@@ -24,7 +47,7 @@ function Navbar(){
             </div>
             <div className='intro'>
                 <h1 className='name'>Collins K. Kiarie</h1>
-                <h3 className='info'>I am a Software Developer</h3>
+                <h3 className='info'>SOFTWARE ENGINEER, FULLSTACK DEVELOPER</h3>
             </div>
             <div className='buttons'>
                 <div className='cvButton'>
@@ -33,6 +56,20 @@ function Navbar(){
                 <div className='hireButton'>
                     <button className='hire'> Hire Me </button>
                 </div>
+            </div>
+            <div className='share'>
+                <ul className='icons'>
+                    <li>
+                        <a href='https://github.com/yourusername'>
+                            <FontAwesomeIcon icon={faGithubSquare} size="3x" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href='https://www.linkedin.com/in/collins-kiarie'>
+                            <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     );
