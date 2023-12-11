@@ -121,7 +121,7 @@
   justify-content: space-evenly;
   width: 1300px;
   margin: auto; 
-  margin-top: 60px ;
+  margin-top: 80px ;
   border: 1px solid #ccc; 
   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1); 
 }
@@ -246,7 +246,7 @@
 }
 
 .container{
-  margin-top: 50px;
+  margin-top: 80px;
   font-family: "Montserrat", "Helvetica Neue";
   font-size: 14px;
   border-radius: 0px;
