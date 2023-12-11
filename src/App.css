@@ -128,23 +128,28 @@
 
 .head {
   width: 500px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 16px;
+  font-family: "Montserrat", "Helvetica Neue";
+  font-size: 14px;
 }
 
 .head h3{
-  font-size: 30px;
-  margin-bottom: 0px;
+  font-size: 1.714em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .bio{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 16px;
+  font-family: "Montserrat", "Helvetica Neue";
+  font-size: 14px;
 }
 
 
 .bio h3{
-  font-size: 30px;
+  font-size: 1.714em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .bioInfo{
@@ -195,7 +200,7 @@
 
 
 .comp{
-  margin-left: 62px;
+  margin-left: 65px;
 }
 
 .sentence-space {
@@ -239,3 +244,11 @@
   margin-top: 0px;
   color: white;
 }
+
+.container{
+  margin-top: 50px;
+  font-family: "Montserrat", "Helvetica Neue";
+  font-size: 14px;
+  border-radius: 0px;
+}
+
