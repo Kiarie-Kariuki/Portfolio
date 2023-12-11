@@ -15,7 +15,7 @@ function Navbar(){
         const handleScroll = () => {
             const currentScrollPos = window.scrollY;
 
-            setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 30); 
+            setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 460); 
 
             setPrevScrollPos(currentScrollPos);
         };
