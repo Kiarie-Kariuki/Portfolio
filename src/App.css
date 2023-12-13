@@ -37,6 +37,10 @@
   }
 }
 
+.body{
+  margin-top: 30px;
+}
+
 .Navbar{
   justify-content: space-evenly;
   display: flex;
@@ -50,7 +54,7 @@
 
 .Navbar.scrolled {
   background: #333;
-  padding-top: 0px;
+  padding-top: 20px;
 }
 
 
@@ -62,11 +66,13 @@
 .nav-icons ul li{
   list-style-type: none;
   margin-left: 40px;
+  cursor: pointer;
 
 }
 
-.cv{
+.portfolio{
   margin-top: 0px;
+  cursor: pointer;
 }
 
 .Photocard{
@@ -100,17 +106,12 @@
 }
 
 .cvButton{
-  position: relative;
   margin-right: 20px;
-  background-color: rgb(7, 166, 240);
-  color: white;
   font-size: 16px;
   padding: 10px 20px;
 }
 
 .hireButton {
-  background-color: rgb(7, 166, 240);
-  color: white;
   font-size: 16px;
   padding: 10px 20px;
 }
@@ -228,12 +229,9 @@
   padding: 0;
 }
 
-.icons li {
-  margin: 0 10px; 
-}
 
 .icons a {
-  color: rgb(143, 145, 146);;
+  color: rgb(0, 123, 255);
 }
 
 .name{
