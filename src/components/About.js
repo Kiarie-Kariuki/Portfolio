@@ -3,8 +3,10 @@ function About(){
         <div className="AboutContainer">
             <div className="head">
                 <h3>About</h3>
-                <p>I am  a software developer with 1 years of experience. I have worked on a variety of projects, including web <span className="sentence-space"> </span> applications, mobile applications, and desktop applications. I am proficient in a variety of programming languages,<span className="sentence-space"> </span> including JavaScript, Python, Java, and some of the frameworks sucj as React, Django, Flask and FASTAPI. I am also<span className="sentence-space"> </span> experienced in working with a variety of technologies, including HTML, CSS, and SQL. 
-                I am a highly motivated and<span className="sentence-space"> </span> results-oriented individual. I'm also a team player and I'm always willing to help others. I am confident that I can<span className="sentence-space"> </span> make a significant contribution to any team or project.<br /> <span className="sentence-space"> </span>Reach out to me and let us work together or let me build you world class efficient and scalable software to meet your needs.</p>
+                <p>Hello, I am Collins Kiarie, popularly known as Kiarie. I am a fullstack developer. I've traversed the digital landscape, working on some projects that span the realms of web applications, mobile development, and desktop solutions.</p>
+                <p>I am a passionate software developer with 1 year of hands-on experience in crafting diverse projects, ranging from web applications and mobile apps to desktop solutions. Proficient in an array of programming languages, I specialize in JavaScript, Python, Java, and utilize frameworks such as React, Django, Flask, and FASTAPI. My tech toolkit also includes expertise in HTML, CSS, and SQL.</p>
+                <p>Motivated by results, I am a highly dedicated individual with a collaborative spirit. As a team player, I find joy in helping others and believe in the collective success of any project. My confidence stems from the belief that I can make a significant contribution to any team or project.</p>
+                <p>Whether you're looking to enhance your online presence, streamline operations, or create world-class, efficient, and scalable software, I am here to make it happen. Let's connect and explore the possibilities of working together.</p>
             </div>
             <div className="bio">
                 <h3>Basic Information</h3>
@@ -14,7 +16,7 @@ function About(){
                             <strong>EMAIL:</strong>
                         </div>
                         <div>
-                            collinskairie13@gmail.com
+                            collinskiarie13@gmail.com
                         </div>
                     </div>
                     <div className="address">
