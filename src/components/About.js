@@ -1,9 +1,9 @@
 function About(){
     return(
-        <div className="AboutContainer">
+        <div className="AboutContainer" id="about">
             <div className="head">
                 <h3>About</h3>
-                <p>Hello, I am Collins Kiarie, popularly known as Kiarie. I am a fullstack developer. I've traversed the digital landscape, working on some projects that span the realms of web applications, mobile development, and desktop solutions.</p>
+                <p>Hello, I am Collins Kiarie, popularly known as Kiarie. I like playing with code to make awesome stuff.</p>
                 <p>I am a passionate software developer with 1 year of hands-on experience in crafting diverse projects, ranging from web applications and mobile apps to desktop solutions. Proficient in an array of programming languages, I specialize in JavaScript, Python, Java, and utilize frameworks such as React, Django, Flask, and FASTAPI. My tech toolkit also includes expertise in HTML, CSS, and SQL.</p>
                 <p>Motivated by results, I am a highly dedicated individual with a collaborative spirit. As a team player, I find joy in helping others and believe in the collective success of any project. My confidence stems from the belief that I can make a significant contribution to any team or project.</p>
                 <p>Whether you're looking to enhance your online presence, streamline operations, or create world-class, efficient, and scalable software, I am here to make it happen. Let's connect and explore the possibilities of working together.</p>
