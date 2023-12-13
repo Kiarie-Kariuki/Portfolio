@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Professional = () => {
   return (
     
-    <div class="container">
+    <div class="container" id='skill'>
         <div class="h4 text-center mb-4 title fw-bold">Professional Skills</div>
         <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom " style={{border: '1px solid #ccc', borderRadius: '0', boxShadow: '0 4px 8px rgb(0, 0, 0, 0.1)'}}>
             <div class="card-body">
