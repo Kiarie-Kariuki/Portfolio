@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.4a74abee.css",
-    "main.js": "/react-gh-pages/static/js/main.737f672e.js",
-    "static/js/787.7da95b79.chunk.js": "/react-gh-pages/static/js/787.7da95b79.chunk.js",
-    "static/media/collins.JPG": "/react-gh-pages/static/media/collins.40b3802309ec8c98d88a.JPG",
-    "static/media/Recipe.png": "/react-gh-pages/static/media/Recipe.9988733ec178582e2163.png",
-    "static/media/Adventura.png": "/react-gh-pages/static/media/Adventura.3def4b8c81bf0e420a40.png",
-    "static/media/swiftReview.png": "/react-gh-pages/static/media/swiftReview.c5beab94a7c5fa3642e4.png",
-    "static/media/background.jpg": "/react-gh-pages/static/media/background.249d3076329dce53a149.jpg",
-    "static/media/adventura.png": "/react-gh-pages/static/media/adventura.49a457fa235e02339997.png",
-    "static/media/inventory.png": "/react-gh-pages/static/media/inventory.60d596444fe9152fed36.png",
-    "static/media/footer.webp": "/react-gh-pages/static/media/footer.ab6e6aa6efc96a538cff.webp",
-    "static/media/recipe.png": "/react-gh-pages/static/media/recipe.c9b575e1ed8421be3773.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.4a74abee.css.map": "/react-gh-pages/static/css/main.4a74abee.css.map",
-    "main.737f672e.js.map": "/react-gh-pages/static/js/main.737f672e.js.map",
-    "787.7da95b79.chunk.js.map": "/react-gh-pages/static/js/787.7da95b79.chunk.js.map"
+    "main.css": "/Kiarie-Kariuki/Portfolio/static/css/main.77bd8a4d.css",
+    "main.js": "/Kiarie-Kariuki/Portfolio/static/js/main.030f3766.js",
+    "static/js/787.7da95b79.chunk.js": "/Kiarie-Kariuki/Portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/collins.JPG": "/Kiarie-Kariuki/Portfolio/static/media/collins.40b3802309ec8c98d88a.JPG",
+    "static/media/Recipe.png": "/Kiarie-Kariuki/Portfolio/static/media/Recipe.9988733ec178582e2163.png",
+    "static/media/Adventura.png": "/Kiarie-Kariuki/Portfolio/static/media/Adventura.3def4b8c81bf0e420a40.png",
+    "static/media/swiftReview.png": "/Kiarie-Kariuki/Portfolio/static/media/swiftReview.c5beab94a7c5fa3642e4.png",
+    "static/media/background.jpg": "/Kiarie-Kariuki/Portfolio/static/media/background.249d3076329dce53a149.jpg",
+    "static/media/adventura.png": "/Kiarie-Kariuki/Portfolio/static/media/adventura.49a457fa235e02339997.png",
+    "static/media/inventory.png": "/Kiarie-Kariuki/Portfolio/static/media/inventory.60d596444fe9152fed36.png",
+    "static/media/footer.webp": "/Kiarie-Kariuki/Portfolio/static/media/footer.ab6e6aa6efc96a538cff.webp",
+    "static/media/recipe.png": "/Kiarie-Kariuki/Portfolio/static/media/recipe.c9b575e1ed8421be3773.png",
+    "index.html": "/Kiarie-Kariuki/Portfolio/index.html",
+    "main.77bd8a4d.css.map": "/Kiarie-Kariuki/Portfolio/static/css/main.77bd8a4d.css.map",
+    "main.030f3766.js.map": "/Kiarie-Kariuki/Portfolio/static/js/main.030f3766.js.map",
+    "787.7da95b79.chunk.js.map": "/Kiarie-Kariuki/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a74abee.css",
-    "static/js/main.737f672e.js"
+    "static/css/main.77bd8a4d.css",
+    "static/js/main.030f3766.js"
   ]
 }
