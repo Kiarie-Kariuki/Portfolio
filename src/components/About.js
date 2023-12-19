@@ -1,6 +1,6 @@
 function About(){
     return(
-        <div className="AboutContainer" id="about">
+        <div className="AboutContainer" id="about" style={{paddingTop: '60px', paddingBottom: '50px'}}>
             <div className="head">
                 <h3>About</h3>
                 <p>Hello, I am Collins Kiarie, popularly known as Kiarie. I like playing with code to make awesome stuff.</p>
