@@ -48,7 +48,7 @@ function About(){
                             <strong>COMPETENCIES:</strong>
                         </div>
                         <div className="comp">
-                            Web Development, Mobile App Development, Systems Design, CI/CD Pipelines, Database Design, API Development, Automated Testing and Debugging
+                            Web Development, Mobile Development, Systems Design, CI/CD Pipelines, Database Design, API Development, Automated Testing and Debugging
                         </div>
                     </div>
                 </div>
