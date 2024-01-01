@@ -1,11 +1,13 @@
 import collins from '../Images/collins.JPG';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {FaBars, FaTimes} from "react-icons/fa";
 
 console.log(collins);
 
 function Navbar() {
+  const navRef = useRef();
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [scrollToContact, setScrollToContact] = useState(false);
@@ -63,19 +65,27 @@ function Navbar() {
     }
   };
 
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav"); 
+  }
+
   return (
     <div className='NavbarContainer' id='portfolio'>
       <div className={`Navbar ${visible ? '' : 'scrolled'}`} id='navbar'>
         <div className='portfolio' onClick={() => scrollToSection('portfolio')}>
           <h2>PORTFOLIO</h2>
         </div>
-        <div className='nav-icons'>
-          <ul className='icon'>
+        <div className='nav-icons' ref={navRef}>
+          <ul className='icon' >
             <li onClick={() => scrollToSection('about')}> ABOUT</li>
             <li onClick={() => scrollToSection('skill')}>SKILL</li>
             <li onClick={() => scrollToSection('experience')}>EXPERIENCE</li>
             <li onClick={() => scrollToSection('contact')}>CONTACT</li>
+            
           </ul>
+          <button className='nav-btn'  onClick={showNavbar} >
+            <FaBars />
+          </button>
         </div>
       </div>
       <div className='Photocard'>
