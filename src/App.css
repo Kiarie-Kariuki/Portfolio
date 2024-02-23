@@ -368,3 +368,14 @@
 }
 
 
+
+
+/* Media query for larger monitor screens */
+@media (max-width: 1440px) {
+  .NavbarContainer {
+    background-image: url('/home/kiarie/Development/Code/portfolio/src/Images/background.jpg');
+    background-size: cover; 
+    background-position: 50% 50%; 
+    height: 84.5vh; 
+  }
+}
